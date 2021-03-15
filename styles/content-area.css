@@ -1,4 +1,292 @@
-#filter{
-    background-color: #faf7f5;
+#content-area{
+    overflow: auto;
+    width: 100%;
+    background: black;
+    min-height: 100vh;
 }
-/* dark purple-#0c002b grey-#fsf7f5 pink#ff718e darkgrey#ada8aa */
+
+#filter{
+    background-color: #fdf2ea;
+    width: 30%;
+    display: inline-block;
+    float: left;
+}
+.inside{
+    padding: 1.25rem;
+    max-width: 300px;
+}
+h4{
+    margin-bottom: 1.5rem;
+    font-weight: 500px;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+.inside select {
+    background: transparent;
+    padding: 0.625rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #1b1b1b;
+    display: block;
+    margin-bottom: 1.56rem;
+    width: 100%;
+}
+.filters .title{
+    font-size: 0.9rem;
+    display: block;
+    margin-bottom: 1rem;
+    color: #828d9d;
+}
+.filters input[type='text']{
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 0.4rem;
+    display: inline-block;
+    width: 45%;
+    margin-right:2.5% ;
+    margin-bottom: 1rem;
+}
+.extras label{
+    display: block;
+    width: 100%;
+    padding: 10px 0px;
+}
+.extras label input[type='checkbox']{
+    float: right;
+}
+
+.listings{
+    width: 70%;
+    float: left;
+    padding: 1rem;
+    background: whitesmoke;
+    display: inline-block;
+    
+
+}
+.search-area input[type='text']{
+    width: 70%;
+    background: transparent;
+    font-size: 2rem;
+    border: none;
+    border-bottom: 1px solid #dadde2;
+    margin-bottom: 20px;
+    font-weight: 100;
+    color: #828d9d;;
+}
+.sortby-area {
+    margin-bottom: 20px;
+}
+.sortby-area .results{
+    font-size: 0.8rem;
+    color: #828d9d;
+    display: inline-block;
+}
+.sort-options{
+    float: right;
+}
+.sort-options select {
+    font-size: 0.9rem;
+    font-weight: 300;
+    border: 1px solid #dadde2;
+    background: transparent;
+    padding: 5px;
+    display: inline-block;
+    margin-right: 15px;
+    vertical-align: top;
+}
+.sort-options .view{
+    display: inline-block;
+    
+}
+.sort-options .fa {
+    font-size: 1.5rem;
+    margin-right: 15px;
+}
+
+/* styling the card */
+.listings-result{
+    margin-bottom: 60px;
+    
+}
+.listings-result .listing{
+    background: #fff;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 9 54px -4 rgba(224, 224, 224,1);
+    -moz-box-shadow: 0 9 54px -4 rgba(224, 224, 224,1);
+    box-shadow: 0 9 54px -4 rgba(224, 224, 224,1);
+}
+.listing .listing-image{
+    position: relative;
+    color: #fff;
+    padding: 15px;
+    background: url('/images/ap4.jpeg') no-repeat center center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 200px;
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-topleft-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-topright-radius: 5px;
+
+}
+ .listing-image:hover .details{
+     opacity: 1;
+    
+}
+.listing-image:hover .address{
+    opacity: 0;
+   
+}
+.listing-image .address{
+    position: absolute;
+    bottom: 20px;
+    opacity: 1;
+    transition: all 0.4s ease-in-out;
+    color: whitesmoke;
+}
+.listing-image .details{
+    position: absolute;
+    top: 0; bottom: 0;
+    right: 0; left: 0;
+    padding: 30px;
+    background: rgba(78,2,229,0.8);
+    background: -moz-linear-gradient(-45deg, rgba(78,2,229,0.8) 0%, rgba(157,28,237,0.8) 100%);
+    background: -webkit-linear-gradient(-45deg, rgba(78,2,229,0.8) 0%, rgba(157,28,237,0.8) 100%);
+    background: linear-gradient(135deg, rgba(78,2,229,0.8) 0%, rgba(157,28,237,0.8) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(
+        startColorstr= '#4e02e5', endColorstr= '#9d1ced', GradientType=1
+    );
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-topleft-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-topright-radius: 5px;
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+}
+.details .agent-img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: inline-block;
+    background: url('/images/felz.jpg') no-repeat center center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.details .agent-details{
+    display: inline-block;
+    vertical-align: top;
+    width: 70%;
+    margin-left: 20px;
+    /* float: right; */
+}
+.agent-details .agent-name{
+    color: rgba(255, 255, 255, 1);
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 300;
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+.agent-details .post-date{
+    color: rgba(255, 255, 255, 0.7);
+    display: block;
+    font-size: 0.9rem;
+
+}
+
+.listing-details{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+
+}
+.listing-details .floor-apace{
+    margin-bottom: 10px;
+}
+.listing-details .fa, .listing-details .far{
+    display: inline-block;
+    font-size: 1rem;
+    margin-top: 5px;
+}
+.listing-details span{
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.view-listing{
+    max-width: 150px;
+    margin-top: 5px;
+    padding:8px;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 300;
+    background-color: black;
+    transition: background-color 0.3s ease-in-out;
+    
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    
+
+}
+.view-listing:hover{
+    background: #ff718e;
+    cursor: pointer;
+}
+.view-listing a{
+    text-decoration: none;
+    color:#fff;
+}
+.col-md-2{
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 15px;
+    /* margin-left: 10px; */
+}
+.col-md-3{
+    width: 33.3%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 15px;
+}
+.col-md-9{
+    width: 75%;
+    display: inline-block;
+}
+.bottom-info{
+    padding: 20px 15px ;
+
+}
+.bottom-info .price{
+    font-size: 1.1rem;
+    color: #828d9d;
+    display: block;
+    margin-bottom: 5px;
+
+}
+.bottom-info .required-rent{
+    font-size: 1.1rem;
+    color: #828d9d;
+    display: block;
+    margin-bottom: 5px;
+}
+.bottom-info .location{
+    font-size: 1.2rem;
+    color: #828d9d;
+    display: block;
+
+}
+
+
+{/*lightgrey-#dadde2 dadde2 dark purple-#0c002b grey-#fsf7f5 pink#ff718e darkgrey#828d9d  #828d9d*/}

@@ -11,6 +11,8 @@ export default function Real() {
     <Layout>
       <Head>
         <title>Real Estate App</title>
+        {/* font awesome cdn */}
+        <script src="https://kit.fontawesome.com/c41b0435b9.js" crossOrigin="anonymous"></script>
       </Head>
       <div className='container'>
         <Header />

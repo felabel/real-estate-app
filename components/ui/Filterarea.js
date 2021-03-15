@@ -2,7 +2,11 @@
 const Filterarea = () => {
     return (
         <section id='filter'>
+            <div className='inside'>
             <h4>Filter</h4>
+            <select name='state' className='filters area'>
+                <option>Uyo</option>
+            </select>
             <select name='area' className='filters area'>
                 <option>Nwaniba</option>
             </select>
@@ -27,30 +31,32 @@ const Filterarea = () => {
             </div>
            {/* facilities area */}
            <div className='filters extras facilities'>
-               <label for='extras'>
+               <span className='title'>Facilities</span>
+               <label htmlFor='extras'>
                    <span>Elevators</span> 
                     <input type='checkbox' value='elevator' name='extras'/>
                </label>
-               <label for='extras'>
+               <label htmlFor='extras'>
                    <span>Water supply</span> 
                     <input type='checkbox' value='water supply' name='extras'/>
                </label>
-               <label for='extras'>
+               <label htmlFor='extras'>
                    <span>Care Taker</span> 
                     <input type='checkbox' value='care taker' name='extras'/>
                </label>
-               <label for='extras'>
+               <label htmlFor='extras'>
                    <span>Fence with Gate</span> 
                     <input type='checkbox' value='fenced with gate' name='extras'/>
                </label>
-               <label for='extras'>
+               <label htmlFor='extras'>
                    <span>Gym</span> 
                     <input type='checkbox' value='gym' name='extras'/>
                </label>
-               <label for='extras'>
+               <label htmlFor='extras'>
                    <span>swimming pool</span> 
                    <input type='checkbox' name='extras'/>
                </label>
+           </div>
            </div>
 
 
