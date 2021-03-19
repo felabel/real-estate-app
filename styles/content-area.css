@@ -1,7 +1,7 @@
 #content-area{
     overflow: auto;
     width: 100%;
-    background: black;
+    /* background: black; */
     min-height: 100vh;
 }
 
@@ -120,7 +120,7 @@ h4{
     position: relative;
     color: #fff;
     padding: 15px;
-    background: url('/images/ap4.jpeg') no-repeat center center ;
+    /* background: url('/images/ap4.jpeg') no-repeat center center ; */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -147,7 +147,8 @@ h4{
     bottom: 20px;
     opacity: 1;
     transition: all 0.4s ease-in-out;
-    color: whitesmoke;
+    color: black;
+    font-weight: 700;
 }
 .listing-image .details{
     position: absolute;
@@ -176,7 +177,7 @@ h4{
     border-radius: 50%;
     border: 2px solid white;
     display: inline-block;
-    background: url('/images/felz.jpg') no-repeat center center ;
+    /* background: url('/images/felz.jpg') no-repeat center center ; */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -286,6 +287,34 @@ h4{
     color: #828d9d;
     display: block;
 
+}
+.pagination{
+
+}
+.pagination-nums{
+    width: 550px;
+
+    background-color: white;
+    -webkit-box-shadow: 0 9 54px -4 rgba(224, 224, 224,1);
+    -moz-box-shadow: 0 9 54px -4 rgba(224, 224, 224,1);
+    box-shadow: 0 9 54px -4 rgba(224, 224, 224,1);
+    margin: auto;
+    vertical-align: center;
+    align-content: center;
+}
+.pagination-nums li{
+    display: inline-block;
+    margin:0 10px;
+    width: 40px ;
+    height: 40px ;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 10px;
+    background-color: #fff;
+}
+.pagination-nums li:hover{
+    background-color: #ff718e;
+    cursor: pointer;
 }
 
 

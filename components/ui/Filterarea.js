@@ -10,7 +10,7 @@ const Filterarea = () => {
             <select name='area' className='filters area'>
                 <option>Nwaniba</option>
             </select>
-            <select name='housetype' className='filters housetype'>
+            <select name='housetype' className='filters housetype' >
                 <option>one room</option>
                 <option>self con</option>
                 <option>one bedroom flat</option>

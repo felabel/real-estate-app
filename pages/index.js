@@ -6,6 +6,7 @@ import Filterarea from '../components/ui/Filterarea'
 import Layout from '../components/layout'
 
 export default function Real() {
+  
   return (
 
     <Layout>
@@ -18,7 +19,7 @@ export default function Real() {
         <Header />
         <section id='content-area'>
         
-        <Filterarea />
+        <Filterarea   />
         <Listings />
         </section>
        
@@ -29,3 +30,12 @@ export default function Real() {
   )
   
 }
+// export default class App extends Component{
+//   constructor (){
+//     super()
+//     this.state = {
+//       name: 'joe',
+
+//     }
+//   }
+// }
