@@ -1,4 +1,7 @@
 export default function products(props) {
+    // if(products == undefined || products.length == 0){
+    //     return 'sorry your search did not match any available property'
+    // }
     return (
         <div className='col-md-3'>
         <div className='listing'>
@@ -38,7 +41,7 @@ export default function products(props) {
         </div>
         {/* info under image */}
         <div className='bottom-info'>
-            <span className='price'>{props.price}</span>
+            <span className='price'>N{props.price}/Yr</span>
             <span className='required-rent' >{props.required}</span>
             <span className='location'>
             <i className="fas fa-map-marker-alt"></i>
@@ -49,6 +52,7 @@ export default function products(props) {
         </div>
     </div>
     </div>
+    
     
     )
 }

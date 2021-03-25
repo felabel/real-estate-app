@@ -8,10 +8,14 @@ const products = [
         size:'1000',
         bedrooms:'3 rooms',
         view:'View Property',
-        price:'N160K/Year',
+        price:275000,
         required:'Required : 1yr 6mo',
         location:'Nwaniba, Uyo',
-        backgroundImage: '/images/ap8.jpeg'
+        backgroundImage: '/images/ap8.jpeg',
+        extras :[
+            'water supply',
+            'fenced with gate'
+        ]
 
     },
     {
@@ -23,10 +27,14 @@ const products = [
         size:'1000 ft',
         bedrooms:'3 rooms',
         view:'View Property',
-        price:'N160K/Year',
+        price:280000,
         required:'Required : 1yr 6mo',
         location:'Nwaniba, Uyo',
-        backgroundImage: '/images/download.jpeg'
+        backgroundImage: '/images/download.jpeg',
+        extras :[
+            'water supply',
+            'fenced with gate'
+        ]
 
     },
     {
@@ -38,10 +46,14 @@ const products = [
         size:'637 ft',
         bedrooms:'1 room',
         view:'View Property',
-        price:'N380K/Year',
+        price:38000,
         required:'Required : 1yr ',
         location:'Uyo, Akwa Ibom',
-        backgroundImage: '/images/ap6.jpeg'
+        backgroundImage: '/images/ap6.jpeg',
+        extras :[
+            
+            'care taker'
+        ]
 
     },
     {
@@ -51,12 +63,18 @@ const products = [
         name:'Nina Smith',
         date:'10/03/2021',
         size:'1000',
-        bedrooms:'3 rooms',
+        bedrooms:'4 rooms',
         view:'View Property',
-        price:'N160K/Year',
+        price:450000,
         required:'Required : 1yr 6mo',
         location:'Nwaniba, Uyo',
-        backgroundImage: '/images/ap5.jpeg'
+        backgroundImage: '/images/ap5.jpeg',
+        extras :[
+            'water supply',
+            'fenced with gate',
+            'care taker',
+            'gym'
+        ]
 
     },
     {
@@ -68,10 +86,15 @@ const products = [
         size:'1000 ft',
         bedrooms:'3 rooms',
         view:'View Property',
-        price:'N160K/Year',
+        price:30000,
         required:'Required : 1yr 6mo',
         location:'Nwaniba, Uyo',
-        backgroundImage: '/images/ap4.jpeg'
+        backgroundImage: '/images/ap4.jpeg',
+        extras :[
+            'water supply',
+            'fenced with gate',
+            'pool'
+        ]
 
     },
     {
@@ -83,10 +106,14 @@ const products = [
         size:'637 ft',
         bedrooms:'1 room',
         view:'View Property',
-        price:'N380K/Year',
+        price:4200,
         required:'Required : 1yr ',
         location:'Uyo, Akwa Ibom',
-        backgroundImage: '/images/ap3.jpeg'
+        backgroundImage: '/images/ap3.jpeg',
+        extras :[
+            
+            'fenced with gate'
+        ]
 
     },
     {
@@ -98,10 +125,14 @@ const products = [
         size:'637 ft',
         bedrooms:'1 room',
         view:'View Property',
-        price:'N380K/Year',
+        price: 40000,
         required:'Required : 1yr ',
         location:'Uyo, Akwa Ibom',
-        backgroundImage: '/images/ap2.jpeg'
+        backgroundImage: '/images/ap2.jpeg',
+        extras :[
+            
+            'care taker'
+        ]
 
     },
     {
@@ -111,12 +142,17 @@ const products = [
         name:'Felz Essien',
         date:'21/05/2020',
         size:'637 ft',
-        bedrooms:'1 room',
+        bedrooms:'5 rooms',
         view:'View Property',
-        price:'N380K/Year',
+        price: 600000,
         required:'Required : 1yr ',
         location:'Uyo, Akwa Ibom',
-        backgroundImage: '/images/ap9.jpeg'
+        backgroundImage: '/images/ap9.jpeg',
+        extras :[
+            'water supply',
+            'fenced with gate',
+            'elevator'
+        ]
 
     },
     {
@@ -128,10 +164,14 @@ const products = [
         size:'637 ft',
         bedrooms:'1 room',
         view:'View Property',
-        price:'N380K/Year',
+        price:3800,
         required:'Required : 1yr ',
         location:'Uyo, Akwa Ibom',
-        backgroundImage: '/images/ap0.jpeg'
+        backgroundImage: '/images/ap0.jpeg',
+        extras :[
+            'water supply',
+            'fenced with gate'
+        ]
 
     },
 ]

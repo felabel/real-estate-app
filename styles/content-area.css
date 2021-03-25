@@ -316,6 +316,28 @@ h4{
     background-color: #ff718e;
     cursor: pointer;
 }
-
+.filtersearch{
+    
+        max-width: 150px;
+        margin-top: 5px;
+        margin-left:25%;
+        padding:8px;
+        text-align: center;
+        font-size: 0.9rem;
+        font-weight: 300;
+        background-color: black;
+        color: white;
+        transition: background-color 0.3s ease-in-out;
+        
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        
+    
+}
+.filtersearch:hover{
+    background: #ff718e;
+    cursor: pointer;
+}
 
 {/*lightgrey-#dadde2 dadde2 dark purple-#0c002b grey-#fsf7f5 pink#ff718e darkgrey#828d9d  #828d9d*/}
