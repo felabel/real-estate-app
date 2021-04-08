@@ -1,8 +1,6 @@
 import Products from '../Products'
 import products from '../productDetails'
 
-import React from 'react'
-import { Component } from "react"
 const Listings = () => {
     const productComponents = products.map(product => <Products key={product.id} address={product.address} agentimage={product.agentimage} name={product.name} date={product.date} size={product.size} bedrooms={product.bedrooms}  view={product.view}  price={product.price}  required={product.required}  location={product.location} backgroundImage={product.backgroundImage} />)
             if(products == undefined || products.length == 0){
@@ -55,7 +53,7 @@ const Listings = () => {
 
 export default Listings
 
-//  export default class Listings extends Component {
+//  class Listings extends Component {
 //      constructor (){
 //          super()
 //          this.state = {
@@ -66,10 +64,11 @@ export default Listings
 //        loopProducts () {
 //          var {products} = this.props
 //          if(products == undefined || products.length == 0){
+//              console.log(products.length)
 //              return 'sorry your filter did not match any listing'
 //          }
 //          return products.map((product, index) => {
-//             return (
+//            return (
 //                         <section className='listings'>
 //                             <section className='search-area'>
 //                                 <input type='text' name='search' />
@@ -144,24 +143,26 @@ export default Listings
                                
                                  
                 
-//                             </section>
+// //                             </section>
                             
                             
-//                             <section className='pagination'>
-//                                 <ul className='pagination-nums'>
-//                                     <li>Prev</li>
-//                                     <li>1</li>
-//                                     <li>2</li>
-//                                     <li>3</li>
-//                                     <li>4</li>
-//                                     <li>5</li>
-//                                     <li>Next</li>
-//                                 </ul>
-//                             </section>
+// //                             <section className='pagination'>
+// //                                 <ul className='pagination-nums'>
+// //                                     <li>Prev</li>
+// //                                     <li>1</li>
+// //                                     <li>2</li>
+// //                                     <li>3</li>
+// //                                     <li>4</li>
+// //                                     <li>5</li>
+// //                                     <li>Next</li>
+// //                                 </ul>
+// //                             </section>
                             
-//                         </section>
+// //                         </section>
 //                     )
 //         })
         
-//        }
+     
+//     }
 // }
+// export default Listings

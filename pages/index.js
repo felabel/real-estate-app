@@ -49,7 +49,7 @@ filteredData(){
       if (product.price < this.state.min_price){
         console.log(product)
       }
-      return (product.price >= this.state.min_price)
+      return (product.price >= this.state.min_price? product:'')
 
     })
     this.setState({

@@ -1,0 +1,77 @@
+.register{
+    color: #828d9d;
+    align-items: center;
+    max-width: 500px;
+    height: 200px;
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-right: 80px; padding-left: 80px;
+    border-radius: 5px;
+    background: rgb(245, 178, 245);
+    border-radius: 5px;
+    -webkit-box-shadow: 0 9 54px -4 rgba(224, 224, 224,1);
+    -moz-box-shadow: 0 9 54px -4 rgba(224, 224, 224,1);
+    box-shadow: 0 9 54px -4 rgba(224, 224, 224,1);
+
+}
+a{text-decoration: none;}
+#reg-as{
+    margin-left: 100px;
+    margin-bottom: 10px;
+  
+}
+#already{
+    font-size: 0.9rem;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+#agent-reg{
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    padding:5px 30px;
+    background-color: purple;
+    color: #fff;
+    margin-right: 100px;
+}
+#client-reg{
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    padding:5px 30px;
+    background-color: purple;
+    color: #fff;
+}
+p a {
+    color: #828d9d;
+}
+.reg-client{
+    margin-top: 20px;
+    height: 250px;
+    width: 500px;
+    padding: 20px;
+    margin: auto;
+    background: rgb(245, 178, 245);
+    border-radius: 5px;
+    -webkit-box-shadow: 0 9 54px -4 rgba(245, 178, 245);
+    -moz-box-shadow: 0 9 54px -4 rgba(245, 178, 245);
+    box-shadow: 0 9 54px -4 rgba(245, 178, 245);
+}
+.reg-client input{
+    width: 210px;
+    height: 30px;
+    padding: 5px;
+    margin: 10px;
+    color: #828d9d;
+    border-radius: 5px;
+    border: 1px solid #828d9d;
+}
+.submit-btn{
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+}
+.submit-btn:hover{
+    
+}
