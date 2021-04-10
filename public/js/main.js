@@ -1,20 +1,9 @@
-function search(event) {
-    var name = event.target.name
-    var value = (event.target.type === 'checkbox') ? event.target.checked : event.target.value
-    // var show = name + value
-    console.log(name + ":" +  value)
-
-
-
-
-
-
-
-
-
-
-
+function showClientForm(){
+    var doc = document.getElementById('reg-client');
+    doc.style.display = 'block'
+    var reg = document.getElementById('register')
+    reg.style.display = 'none'
 }
 
 
-// export default search
+// export default showClientForm()

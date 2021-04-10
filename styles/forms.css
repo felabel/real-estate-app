@@ -1,5 +1,5 @@
 .register{
-    color: #828d9d;
+    color: #dadde2;
     align-items: center;
     max-width: 500px;
     height: 200px;
@@ -8,7 +8,10 @@
     padding-top: 30px;
     padding-right: 80px; padding-left: 80px;
     border-radius: 5px;
-    background: rgb(245, 178, 245);
+    background: rgba(78,2,229,0.8);
+    background: -moz-linear-gradient(-45deg, rgba(78,2,229,0.8) 0%, rgba(157,28,237,0.8) 100%);
+    background: -webkit-linear-gradient(-45deg, rgba(78,2,229,0.8) 0%, rgba(157,28,237,0.8) 100%);
+    background: linear-gradient(135deg, rgba(78,2,229,0.8) 0%, rgba(157,28,237,0.8) 100%);;
     border-radius: 5px;
     -webkit-box-shadow: 0 9 54px -4 rgba(224, 224, 224,1);
     -moz-box-shadow: 0 9 54px -4 rgba(224, 224, 224,1);
@@ -31,34 +34,42 @@ a{text-decoration: none;}
     height: 30px;
     border-radius: 5px;
     padding:5px 30px;
-    background-color: purple;
+    background-color: #0c002b;
     color: #fff;
     margin-right: 100px;
+    
 }
 #client-reg{
     width: 150px;
     height: 30px;
     border-radius: 5px;
     padding:5px 30px;
-    background-color: purple;
+    background-color: #0c002b;
     color: #fff;
 }
 p a {
-    color: #828d9d;
+    color: #dadde2;
 }
-.reg-client{
-    margin-top: 20px;
+.reg-form{
+    /* margin-top: 20px; */
     height: 250px;
     width: 500px;
     padding: 20px;
-    margin: auto;
-    background: rgb(245, 178, 245);
+    margin: 50px auto;
+    background: rgba(78,2,229,0.8);
+    background: -moz-linear-gradient(-45deg, rgba(78,2,229,0.8) 0%, rgba(157,28,237,0.8) 100%);
+    background: -webkit-linear-gradient(-45deg, rgba(78,2,229,0.8) 0%, rgba(157,28,237,0.8) 100%);
+    background: linear-gradient(135deg, rgba(78,2,229,0.8) 0%, rgba(157,28,237,0.8) 100%);;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 9 54px -4 rgba(224, 224, 224,1);
+    -moz-box-shadow: 0 9 54px -4 rgba(224, 224, 224,1);
+    box-shadow: 0 9 54px -4 rgba(224, 224, 224,1);
     border-radius: 5px;
     -webkit-box-shadow: 0 9 54px -4 rgba(245, 178, 245);
     -moz-box-shadow: 0 9 54px -4 rgba(245, 178, 245);
     box-shadow: 0 9 54px -4 rgba(245, 178, 245);
 }
-.reg-client input{
+.reg-form input{
     width: 210px;
     height: 30px;
     padding: 5px;
@@ -68,10 +79,31 @@ p a {
     border: 1px solid #828d9d;
 }
 .submit-btn{
-    width: 120px;
+    text-align: center;
+    width: 170px;
     height: 30px;
     border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 30%;
+    cursor: pointer;
+    appearance: none;
+    outline: none;
+    text-decoration: none;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #0c002b;
+    font-weight: bold;
+    transition: 0.4s;
+    border: none;
 }
 .submit-btn:hover{
-    
+    background-color: #ff718e;  
 }
+.reg-client p{
+    color: #fff;
+    text-align: center;
+}
+#reg-client, #reg-agent{
+    display: none;
+}
+{/*lightgrey-#dadde2 dadde2 dark purple-#0c002b grey-#fsf7f5 pink#ff718e darkgrey#828d9d  #828d9d*/}
